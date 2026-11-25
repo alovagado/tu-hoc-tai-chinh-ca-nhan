@@ -35,7 +35,8 @@ npx netlify-cli deploy --prod
 | game_start | Bắt đầu ván | nhân vật, độ khó, số liệu tự nhập, bậc xuất phát |
 | quarter_plan | Chốt kế hoạch mỗi quý | tài sản ròng, nợ, kỷ luật, hạnh phúc, cách chia tiền, nguồn thu, việc học |
 | decision | Mỗi lựa chọn trong biến cố | mã biến cố, lựa chọn, tác động ngắn hạn và dài hạn, đúng/sai câu đố |
-| action | Mở/đóng kinh doanh, đi học, nghỉ việc… | hành động, quý, tài sản ròng |
+| action | Mở/đóng kinh doanh, đi học, nghỉ việc, đổi lối sống… | hành động, quý, tài sản ròng |
+| game_abandon | Bấm "Ván mới" khi ván chưa kết thúc | trạng thái lúc bỏ, biến cố cuối cùng |
 | game_end | Kết thúc ván | trạng thái cuối, bậc cao nhất, tổng lãi đã trả |
 
 `pid` là mã người chơi ngẫu nhiên lưu trong trình duyệt; `gid` là mã từng ván.
